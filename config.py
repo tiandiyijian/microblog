@@ -16,3 +16,4 @@ class Config:
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['test@gmail.com']
     LANGUAGES = ['zh_CN', 'en']
+    ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
